@@ -12,9 +12,9 @@ Control if *target* is a number
 ## Third step ##
 Use of a recursive function to look for the *target*
 ### Recursive binary search function parameters ###
-*left* parameter is set to the first element of the list
-*right* parameter is set to the last element of the list
-*target* is the local variable within the binary search function which stores the value to be searched
+1. *left* parameter is set to the first element of the list
+1. *right* parameter is set to the last element of the list
+1. *target* is the local variable within the binary search function which stores the value to be searched
 
 ### Case if the target is in the list ###
 The recursive function will check if the *middle* is higher or lower the *target* and will 
